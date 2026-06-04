@@ -24,7 +24,7 @@
 	// ],
 
 	"routes": [
-		"pattern": blog.renderbob.io,
+		"pattern": "blog.renderbob.io",
 		"zone_name": "renderbob.io"
 	]
 }
