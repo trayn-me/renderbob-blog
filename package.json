@@ -1,0 +1,33 @@
+{
+  "name": "renderbob-blog",
+  "version": "0.0.3",
+  "private": true,
+  "type": "module",
+  "emdash": {
+    "seed": "seed/seed.json"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy",
+    "typecheck": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^13.5.3",
+    "@astrojs/react": "^5.0.0",
+    "@emdash-cms/cloudflare": "^0.16.1",
+    "@emdash-cms/plugin-forms": "^0.2.3",
+    "@emdash-cms/plugin-webhook-notifier": "^0.2.0",
+    "astro": "^6.3.0",
+    "emdash": "^0.16.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.7",
+    "@cloudflare/workers-types": "^4.20260305.1",
+    "wrangler": "^4.95.0"
+  },
+  "packageManager": "pnpm@11.1.3+sha512.c85357fe17ca12dd23dd7071822666dfd7e3cb76fe214e3370b5ea2fb34f2a231185509b63e717f3cd0acb38dd3f8d82bcd5e8172400ae678b70ea4fbed0896d"
+}
