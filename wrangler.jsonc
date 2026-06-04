@@ -26,7 +26,8 @@
 	"routes": [
 		{
 			"pattern": "blog.renderbob.io",
-			"zone_name": "renderbob.io"
+			"zone_name": "renderbob.io",
+			"custom_domain": true
 		}
 	]
 }
