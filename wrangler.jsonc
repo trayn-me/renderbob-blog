@@ -22,4 +22,9 @@
 	//	 	"binding": "LOADER",
 	//	 },
 	// ],
+
+	"routes": [
+		"pattern": blog.renderbob.io,
+		"zone_name": "renderbob.io"
+	]
 }
