@@ -5,7 +5,7 @@ import { formsPlugin } from "@emdash-cms/plugin-forms";
 import webhookNotifier from "@emdash-cms/plugin-webhook-notifier";
 import { defineConfig, fontProviders } from "astro/config";
 import emdash from "emdash/astro";
-import lettermintPlugin from "@jdevalk/emdash-plugin-lettermint";
+import { lettermintPlugin } from "@jdevalk/emdash-plugin-lettermint";
 
 export default defineConfig({
 	output: "server",
