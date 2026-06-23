@@ -1,9 +1,19 @@
 name: Deploy to Cloudflare Workers
 
 on:
+
+  workflow_dispatch:
   push:
     branches:
       - master
+    paths:
+      - '**'
+      - '!.cursor'
+      - '!.cursor/mcp.json'
+      - '!.claude'
+      - '!.vscode'
+      - '!.github/workflows/deploy.yml'
+
 
 jobs:
   deploy:
