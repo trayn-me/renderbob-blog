@@ -13,4 +13,9 @@ minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - emdash
   - "@emdash-cms/*"
+  - '@astrojs/cloudflare@14.0.0'
+  - '@astrojs/markdown-satteri@0.3.1'
+  - '@astrojs/react@6.0.0'
+  - '@cloudflare/workers-types@4.20260623.1'
+  - astro@7.0.0
 blockExoticSubdeps: true
